@@ -23,7 +23,7 @@ import random
 class Dianping(object):
     def __init__(self):
         self.headers = HEADERS
-        self.proxies = xdaili_proxy()
+        self.proxies = general_proxy()#讯代理xdaili_proxy改成阿布云代理
         self.css_url = CSS_URL
         self.svg_num_url = SVG_NUM_URL
         self.svg_font_url = SVG_FONT_URL
